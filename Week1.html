@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<head>
+	<title>	 Joon Baek's Notes for Week 1</title>
+	<link rel="stylesheet" type="text/css" href="Week1.css">
+</head>
+
+<body>
+	<div class = "TOC">
+		<h1>Table of Contents</h1>
+		<ol>
+			<li> <a href= "#lesson-1">	Week 0 - The Basics of the Web and HTML </a></li>
+			<li> <a href= "#lesson-2"> Week 1 - Creating a Structured Document </a></li>
+			<li> <a href= "#lesson-3"> Week 1 - Adding CSS Style and HTML Structure </a></li>
+		</ol>
+	</div>
+	<h1>Important Concepts</h1>
+	<div class = "lesson">
+		<h2 id = "lesson-1"> Week 0 - The Basics of the Web and HTML </h2>
+		<div class = "concept">
+			<div class = "concept-name">
+				Thinking like a Programmer
+			</div>
+			<div class = "concept-description">
+				<ol>
+					<li>Procedural thinking(steps)</li>
+					<li>Abstract thinking</li>
+					<li>Systematic debugging</li>
+					<li>Technological empathy(how does a computer think?)</li>
+					<li>Systems thinking - one big idea and break it down to component pieces</li>
+				</ol>
+			</div>
+		</div>
+		<div class = "concept">
+			<div class = "concept-name">
+				HTML
+			</div>
+			<div class = "concept description">
+				HTML is hyper text markup language. It is made up of:
+				<ul>
+					<li>Text content(what you see></li>
+					<li>Markup(what it looks like)</li>
+					<li>Reference to other documents(image and video)</li>
+					<li>Link to other pages</li>
+				</ul>
+			</div>	
+		</div>
+		<div class = "concept">
+			<div class = "concept-name">
+				Types of Tags and Elements
+			</div>
+			<div class = "concept-description">
+				<ul>
+					<li>B tag -bold</li>
+					<li>Em tag - italicize</li>
+					<li>Br tag - break(void tag)</li>
+					<li>Br tag - inline, start a new line, only text</li>
+					<li>P tag - paragraph(not a void tag)</li>
+					<li>Span(inline)</li>
+					<li>Div(block)</li>
+					<li>Anchor: making links</li>
+					<li>Images: putting in images</li>
+				</ul>
+			</div>
+		</div>
+		<div class = "concept">
+			<div class = "concept-name">
+				Computers are Stupid
+			</div>	
+			<div class = "concept-description">
+				Programmers need to write exactly the way a computer understands (also known as writing with correct "syntax"). For example, if you forget to close a B tag, the computer won't be able to figure out what you had intended to make bold. This "stupidity" can be very frustrating, but it also gives programmers incredible power: if you know how to talk to a computer than you can tell it to do anything you want.
+
+			</div>
+		</div>	
+	</div>	
+	<div class = "lesson">
+		<h2 id = "lesson-2">Week 1 - Creating a Structured Document </h2>
+		<div class = "concept">
+			<div class = "concept-name">
+				# web - house
+			</div>	
+			<div class = "concept-description">
+				Html is structure, Css is style and JavaScript is the interactive that changes elements. There are basic rules for website. <b> Ex) wikipedia </b> Has Text, image, logo, etc. Dev. Tool ==> structure of the page as the browser inter. all elements are rectangular. U can read the same txt as on the pg
+			</div>
+		</div>		
+		<div class = "concept">
+			<div class = "concept-name">
+				#Tree like structure
+			</div>	
+			<div class = "concept-description">
+				<p>Opening tag // closing tag. Ex) div -- h2 -- span -- text -- p -- text // a // a -- text. How the browser know? What saw is how browser classify the html. HTML - language - syntax and rules , basic word = tag --> elements in the tree through DOM - stn. For elements in html, DOM tree for HTML.</p>
+				<p><b>In a nutshell, websites has numerous boxes in them. All of them have tree-like structure, with boxes nested inside boxes.</b></p>
+			</div>
+		</div>	
+		<div class = "concept">
+			<div class = "concept-name">
+				# Comparison
+			</div>	
+			<div class = "concept-description">
+				<div>HTML - HyperText Markup Language - the standard markup language used to create web pages.</div>
+				<div>CSS - Cascading Style Sheets - style sheet language used for describing the look and formatting of a document written in a markup language.</div>
+				<div>DOM - Document Object Model - a cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages). The nodes of every document are organized in a tree structure, called the DOM tree.</div>
+			</div>
+		</div>						
+		<div class = "concept">
+			<div class = "concept-name">
+				#BOX
+			</div>	
+			<div class = "concept-description">
+				Boxes everywhere! Even if it looks like a circle. All due to the style! Border radius uncheck - the circle --> sq
+
+			</div>
+		</div>			
+	</div>
+	<div class = "lesson">
+		<h2 id = "lesson-3">Week 1 - Adding CSS Style and HTML Structure </h2>
+		<div class = "concept">
+			<div class = "concept-name">
+				Importance of Avoiding Repetitions
+			</div>
+			<div class = "concept-description">
+				By avoiding repetitions, programmers can achieve two things:
+					<ol>
+						<li>Help avoid making errors - if the programmer needs to fix one part, he was to fix ALL parts as well</li>
+						<li>Great consistency - no two different names for same class</li>
+					</ol>
+			</div>
+		</div>
+		<div class = "concept">
+			<div class = "concept-name">
+				# Adding Style
+			</div>	
+			<div class = "concept-description">
+				<p>Several CSS - style for your page. Most specific rule is applied to every element. Ex_ house law == national law. </p>
+				<p>Cascade - go down the rule until found the best one(inheritance) </p> 
+				<p> selector - what elements of style for page. Apply for all tags. </p>
+				<p>CSS proptery - lot of attributes to use. Ex) font-weight = bold</p>
+
+			</div>
+		</div>		
+		<div class = "concept">
+			<div class = "concept-name">
+				Including CSS Styling in my web page
+			</div>	
+			<div class = "concept-description">
+				<p>Method 1: write CSS in the "head" of your HTML</p>
+				<p>Method 2: Link your HTML to a separate CSS file</p>
+				<p>Method 3: Write your style inline with your HTML</p>
+			</div>
+		</div>	
+		<div class = "concept">
+			<div class = "concept-name">
+				# Box Model
+			</div>	
+			<div class = "concept-description">
+				<p>Content - padding - border - margin. Box-sizing: border-box; (this property is new - need browser specific stuff)</p>
+				<p>Box sizing: Set sizes in terms of percentages rather than pixels OR set the box-sizing attribute to border-box for every element.</p>
+				<p>Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently.</p>
+			</div>
+		</div>						
+		<div class = "concept">
+			<div class = "concept-name">
+				Code Test and Refine
+			</div>	
+			<div class = "concept-description">
+				<ol>
+					<li>Look for natural boxes </li>
+					<li>Look for repeated styles and semantic elements</li>
+					<li>Write html</li>
+					<li>Apply styles from biggest to smallest</li>
+					<li>Fix things</li>
+				</ol>
+			</div>
+		</div>			
+	</div>	
+</body>
